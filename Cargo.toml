@@ -6,6 +6,7 @@ rust-version = "1.85"
 description = "Composable Bevy ECS selection and directional navigation."
 readme = "README.md"
 documentation = "https://docs.rs/bevy_select"
+license = "MIT OR Apache-2.0"
 keywords = ["bevy", "ecs", "navigation", "selection", "game-development"]
 categories = ["game-development"]
 
