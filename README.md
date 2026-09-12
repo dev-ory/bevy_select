@@ -4,6 +4,8 @@
 It keeps selection state in a `Selector`, represents navigation requests as buffered Bevy messages,
 and publishes observer events when selection changes or a directional step is taken.
 
+Currently, it is quite 'opinionated' in the I organize, import, and name things, but I do plan on eventually including a prelude-like module. However, this is just a personal-use crate, so don't expect it to be updated or maintained.
+
 ## Features
 
 Features build on one another. The default feature set is deliberately empty, so applications can
@@ -12,7 +14,7 @@ choose the smallest navigation model they need.
 | Feature | Adds | Directions |
 | --- | --- | --- |
 | `neighbor` | Generic directional navigation and a center fallback | `Center` |
-| `linear` | One-dimensional navigation | `Left`, `Right` |
+| `linear` | One-dimensional navigation | `Left`, `Right`, `Center` |
 | `planar` | Two-dimensional navigation | `Left`, `Right`, `Up`, `Down`, `Center` |
 | `spatial` | Three-dimensional navigation | `Left`, `Right`, `Up`, `Down`, `Forward`, `Back`, `Center` |
 
