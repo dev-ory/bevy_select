@@ -4,7 +4,7 @@
 It keeps selection state in a `Selector`, represents navigation requests as buffered Bevy messages,
 and publishes observer events when selection changes or a directional step is taken.
 
-Currently, it is quite 'opinionated' in the I organize, import, and name things, but I do plan on eventually including a prelude-like module. However, this is just a personal-use crate, so don't expect it to be updated or maintained.
+Currently, it is quite 'opinionated' in the way I organize, import, and name things, but I do plan on eventually including a prelude-like module. However, this is just a personal-use crate, so don't expect it to be updated or maintained.
 
 ## Features
 
