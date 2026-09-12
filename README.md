@@ -4,11 +4,7 @@
 It keeps selection state in a `Selector`, represents navigation requests as buffered Bevy messages,
 and publishes observer events when selection changes or a directional step is taken.
 
-<<<<<<< HEAD
-Currently, it is quite 'opinionated' in the way I organize, import, and name things, but I do plan on eventually including a prelude-like module. However, this is just a personal-use crate, so don't expect it to be updated or maintained.
-=======
 This is just a personal-use crate, so don't expect it to be updated or maintained, unless I need it.
->>>>>>> 2b6b12d (added prelude)
 
 ## Features
 
@@ -26,7 +22,7 @@ For example, enable 2D navigation:
 
 ```toml
 [dependencies]
-bevy_select = { version = "0.0.1", features = ["planar"] }
+bevy_select = { version = "0.1.0", features = ["planar"] }
 ```
 
 ## Quick start
